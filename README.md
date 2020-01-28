@@ -1,1 +1,1 @@
-Algorihtm-Study-With-JS
+# Algorithm-Study-With-JS

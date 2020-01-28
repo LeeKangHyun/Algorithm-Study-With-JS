@@ -1,0 +1,23 @@
+{
+  "name": "algorithm-study-with-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LeeKangHyun/Algorithm-Study-With-JS.git",
+  "author": "KangHyun Lee <rkdgusdl92+git@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/jest": "^25.1.0",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.0.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "babel-jest": "^25.1.0"
+  }
+}

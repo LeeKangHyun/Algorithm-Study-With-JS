@@ -1,3 +1,7 @@
+'use strict';
+import { swap } from '../swap';
+
+// https://en.wikipedia.org/wiki/Bubble_sort
 console.time('BubbleSort');
 export const BubbleSort = (arr: number[] = []): number[] => {
   const len = arr.length;
@@ -13,7 +17,7 @@ export const BubbleSort = (arr: number[] = []): number[] => {
 
     for (let i = 0; i < len; i += 1) {
       if (arr[i] > arr[i + 1]) {
-        [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];
+        swap(arr, i, i + 1);
         swapped = true;
       }
     }

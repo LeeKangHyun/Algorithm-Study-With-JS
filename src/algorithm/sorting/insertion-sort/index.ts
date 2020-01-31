@@ -1,3 +1,6 @@
+'use strict';
+
+// https://en.wikipedia.org/wiki/Insertion_sort
 console.time('InsertionSort');
 export const InsertionSort = (arr: number[]): number[] => {
   const len = arr.length;

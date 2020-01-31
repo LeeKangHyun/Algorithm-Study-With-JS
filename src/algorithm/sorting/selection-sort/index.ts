@@ -1,3 +1,7 @@
+'use strict';
+import { swap } from '../swap';
+
+// https://en.wikipedia.org/wiki/Selection_sort
 console.time('SelectionSort');
 export const SelectionSort = (arr: number[]): number[] => {
   const len = arr.length;
@@ -12,7 +16,7 @@ export const SelectionSort = (arr: number[]): number[] => {
     }
 
     if (min !== i) {
-      [arr[i], arr[min]] = [arr[min], arr[i]];
+      swap(arr, i, min);
     }
   }
 

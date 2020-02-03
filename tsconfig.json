@@ -10,7 +10,10 @@
     "allowJs": true,
     "esModuleInterop": true,
     "sourceMap": true,
-    "inlineSourceMap": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "**/*.js"
+  ]
 }

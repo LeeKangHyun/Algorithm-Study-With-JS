@@ -10,4 +10,13 @@ module.exports = {
     ],
     '@babel/preset-typescript',
   ],
+  plugins: [
+    [
+      'babel-plugin-root-import',
+      {
+        rootPathSuffix: './src',
+        rootPathPrefix: '~/',
+      },
+    ],
+  ],
 };

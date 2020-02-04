@@ -10,10 +10,14 @@
     "allowJs": true,
     "esModuleInterop": true,
     "sourceMap": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "paths": {
+      "~/*": ["src/*"]
+    }
   },
   "exclude": [
-    "node_modules",
-    "**/*.js"
+    "node_modules/*",
+    "**/__tests__/*"
   ]
 }
